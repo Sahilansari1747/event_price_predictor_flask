@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booked Events</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fdfdfd;
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .event-list {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .event {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .event strong {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Booked Event Dates</h1>
+    <div class="event-list">
+        {% if events %}
+            {% for event in events %}
+            <div class="event">
+                <p><strong>Event Type:</strong> {{ event.event_type }}</p>
+                <p><strong>Guests:</strong> {{ event.guest_count }}</p>
+                <p><strong>Venue Area:</strong> {{ event.venue_area }} sq ft</p>
+                <p><strong>Food:</strong> {{ event.food_type }}</p>
+                <p><strong>Decoration:</strong> {{ event.decoration }}</p>
+                <p><strong>Entertainment:</strong> {{ event.entertainment }}</p>
+                <p><strong>Duration:</strong> {{ event.duration }} hours</p>
+                <p><strong>Total Cost (incl. GST):</strong> ₹{{ event.total }}</p>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p style="text-align:center;">No events booked yet.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

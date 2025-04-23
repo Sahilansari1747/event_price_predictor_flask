@@ -1,0 +1,101 @@
+Event Type,Guest Count,Venue Area (sq ft),Food Type,Decoration Level,Entertainment,Event Duration (hrs),Price
+Birthday,428,8743,Non-Veg,Premium,DJ,7.8,354230
+Birthday,288,2957,Veg,Premium,Live Band,3.2,226770
+Corporate,161,3732,Veg,Basic,Live Band,6.7,149520
+Wedding,110,8926,Veg,Premium,Live Band,3.1,197360
+Wedding,45,6405,Veg,Standard,Live Band,6.9,128450
+Birthday,30,9300,Veg,Basic,None,6.7,119700
+Birthday,336,9630,Both,Premium,None,6.9,309200
+Wedding,156,5146,Non-Veg,Premium,DJ,6.9,181360
+Wedding,354,8740,Non-Veg,Basic,DJ,3.6,288000
+Corporate,102,1793,Veg,Premium,DJ,4.6,113530
+Corporate,81,9049,Veg,Basic,DJ,8.0,153990
+Birthday,390,1440,Non-Veg,Standard,None,7.0,236400
+Wedding,155,1645,Non-Veg,Standard,DJ,5.2,129150
+Birthday,94,2959,Veg,Basic,Live Band,2.4,103990
+Birthday,308,9217,Veg,Standard,None,2.1,263270
+Corporate,174,5787,Non-Veg,Standard,None,5.1,169970
+Wedding,69,1775,Veg,Standard,Live Band,2.2,89450
+Wedding,379,7254,Veg,Standard,None,3.2,280240
+Birthday,110,3318,Veg,Premium,Live Band,7.0,145180
+Birthday,194,4321,Veg,Premium,Live Band,7.3,197510
+Wedding,188,7966,Non-Veg,Standard,None,2.2,195860
+Corporate,248,7876,Non-Veg,Premium,None,3.3,241060
+Corporate,341,9517,Veg,Premium,None,8.0,303670
+Birthday,130,4300,Non-Veg,Standard,None,4.1,132100
+Birthday,314,7221,Veg,Basic,None,3.2,237410
+Corporate,100,2843,Non-Veg,Premium,DJ,3.2,126630
+Wedding,31,7620,Both,Premium,DJ,2.4,142100
+Wedding,187,9483,Non-Veg,Standard,Live Band,6.1,234430
+Corporate,120,1166,Non-Veg,Standard,DJ,4.8,106460
+Wedding,302,7229,Veg,Basic,Live Band,5.2,253490
+Birthday,46,6121,Veg,Standard,None,3.5,102710
+Corporate,136,1491,Both,Basic,None,3.6,99510
+Corporate,65,2964,Both,Standard,None,4.7,89840
+Birthday,368,8970,Non-Veg,Basic,None,5.9,289600
+Wedding,310,1679,Non-Veg,Basic,None,3.7,185490
+Corporate,195,9610,Non-Veg,Basic,DJ,7.7,221300
+Wedding,401,3398,Non-Veg,Standard,DJ,5.1,269580
+Corporate,393,2878,Both,Standard,Live Band,5.7,273980
+Birthday,456,5629,Veg,Premium,None,3.4,317690
+Birthday,400,5595,Non-Veg,Standard,Live Band,4.7,300650
+Wedding,458,1150,Veg,Standard,DJ,6.4,271900
+Wedding,68,7254,Non-Veg,Standard,DJ,6.2,142740
+Corporate,259,1020,Non-Veg,Standard,DJ,2.1,171800
+Birthday,455,4206,Veg,Premium,Live Band,6.0,325560
+Wedding,115,7362,Non-Veg,Standard,DJ,3.9,165020
+Wedding,321,2774,Veg,Premium,Live Band,5.0,243240
+Corporate,184,3868,Non-Veg,Basic,None,4.5,145180
+Wedding,155,6093,Non-Veg,Standard,None,7.7,166130
+Birthday,422,7641,Both,Standard,None,4.7,315110
+Wedding,185,2142,Veg,Basic,DJ,4.3,133220
+Wedding,315,3168,Non-Veg,Premium,DJ,4.0,238180
+Wedding,488,4636,Non-Veg,Premium,Live Band,2.3,347660
+Corporate,161,4615,Non-Veg,Standard,DJ,3.3,159950
+Birthday,49,1482,Both,Premium,DJ,4.4,91720
+Birthday,165,7300,Veg,Basic,DJ,2.5,173000
+Wedding,278,7421,Veg,Basic,DJ,4.9,233110
+Corporate,380,9072,Veg,Premium,Live Band,5.3,336020
+Corporate,99,8359,Veg,Standard,None,3.2,151290
+Birthday,91,4601,Non-Veg,Basic,Live Band,3.3,124810
+Wedding,171,3497,Both,Basic,DJ,3.7,147170
+Birthday,28,4391,Veg,Standard,DJ,3.2,86110
+Wedding,193,4600,Both,Basic,Live Band,4.2,179700
+Wedding,262,8173,Non-Veg,Standard,Live Band,7.5,260230
+Corporate,328,3032,Veg,Premium,None,7.2,231520
+Wedding,154,6200,Both,Premium,None,7.6,184600
+Birthday,341,4745,Both,Standard,DJ,6.3,257250
+Wedding,206,7168,Veg,Basic,None,6.2,185880
+Birthday,205,1802,Both,Premium,DJ,8.0,176520
+Birthday,419,8590,Both,Standard,Live Band,6.7,345100
+Corporate,40,3742,Non-Veg,Basic,Live Band,5.0,92420
+Birthday,25,2316,Both,Premium,DJ,7.0,90660
+Wedding,370,5154,Non-Veg,Basic,DJ,5.3,261840
+Corporate,225,8829,Veg,Basic,DJ,5.1,220890
+Birthday,363,5043,Both,Standard,DJ,3.9,268830
+Wedding,120,1633,Both,Standard,None,7.1,106430
+Wedding,40,1451,Veg,Standard,DJ,4.7,64210
+Birthday,177,2939,Both,Premium,DJ,4.6,170490
+Wedding,397,3302,Veg,Basic,Live Band,3.8,260320
+Birthday,91,2678,Non-Veg,Standard,DJ,3.4,105680
+Birthday,247,3255,Both,Standard,None,7.4,186450
+Birthday,369,7875,Both,Standard,None,2.6,288850
+Wedding,489,1593,Non-Veg,Standard,DJ,2.8,293230
+Corporate,293,9447,Both,Premium,Live Band,2.0,300970
+Birthday,405,8749,Both,Basic,DJ,4.4,317390
+Wedding,118,540,Veg,Basic,Live Band,5.6,95000
+Corporate,55,9712,Both,Premium,Live Band,3.9,186520
+Birthday,436,8859,Both,Basic,DJ,2.1,331690
+Birthday,117,6057,Both,Standard,None,7.2,149270
+Wedding,325,5430,Both,Standard,DJ,5.0,254800
+Wedding,150,3551,Veg,Basic,None,7.1,122610
+Corporate,476,1775,Non-Veg,Standard,DJ,2.3,288050
+Birthday,154,8954,Veg,Standard,None,5.1,186640
+Wedding,232,1154,Veg,Basic,DJ,6.9,149440
+Corporate,175,6477,Non-Veg,Standard,None,3.6,175870
+Wedding,90,7420,Veg,Premium,DJ,2.7,161900
+Wedding,252,872,Veg,Basic,None,3.7,143420
+Wedding,294,500,Veg,Standard,Live Band,6.1,193100
+Corporate,420,6897,Non-Veg,Premium,DJ,6.3,330270
+Corporate,193,4197,Veg,Premium,None,7.6,176070
+Birthday,231,972,Non-Veg,Standard,DJ,6.4,161620

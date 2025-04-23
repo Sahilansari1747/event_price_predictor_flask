@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment - Event Booking</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f8ff;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        .qr {
+            margin-top: 20px;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Complete Your Payment</h1>
+    
+    <p><strong>UPI ID:</strong> Sahilansari16@ybl</p>
+
+    <h3>Scan this QR code to pay:</h3>
+    <img src="{{ url_for('static', filename='qr-code.png') }}" alt="UPI QR Code" class="qr">
+</body>
+</html>

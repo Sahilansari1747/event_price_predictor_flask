@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Event Price Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .result.success {
+            color: #2c3e50;
+        }
+        .result.error {
+            color: red;
+        }
+        .logout {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .logout a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .logout a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin - Event Price Predictor</h1>
+        <form method="POST" action="{{ url_for('event') }}">
+
+            <label>Event Type:</label>
+            <input type="text" name="event_type" required>
+
+            <label for="event_date">Event Date:</label>
+            <input type="date" id="event_date" name="event_date" required>
+
+            <label>Number of Guests:</label>
+            <input type="number" name="guest_count" required>
+
+            <label>Venue Area (sq ft):</label>
+            <input type="number" name="venue_area" required>
+
+            <label>Food Type:</label>
+            <input type="text" name="food_type" required>
+
+            <label>Decoration Level:</label>
+            <input type="text" name="decoration" required>
+
+            <label>Entertainment:</label>
+            <input type="text" name="entertainment" required>
+
+            <label>Event Duration (hours):</label>
+            <input type="number" step="0.1" name="duration" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if price %}
+            <div class="result success">Predicted Event Price: ₹{{ price }}</div>
+
+            <!-- Book Your Event button starts here -->
+            <form method="GET" action="/billing">
+                <input type="hidden" name="price" value="{{ price }}">
+                <button type="submit" style="margin-top: 20px; background-color: #2196F3;">Book Your Event</button>
+            </form>
+            <!-- Book Your Event button ends here -->
+
+        {% elif error %}
+            <div class="result error">{{ error }}</div>
+        {% endif %}
+
+        <div class="logout">
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
