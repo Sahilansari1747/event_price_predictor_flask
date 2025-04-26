@@ -35,14 +35,16 @@
         {% if events %}
             {% for event in events %}
             <div class="event">
-                <p><strong>Event Type:</strong> {{ event.event_type }}</p>
-                <p><strong>Guests:</strong> {{ event.guest_count }}</p>
-                <p><strong>Venue Area:</strong> {{ event.venue_area }} sq ft</p>
-                <p><strong>Food:</strong> {{ event.food_type }}</p>
-                <p><strong>Decoration:</strong> {{ event.decoration }}</p>
-                <p><strong>Entertainment:</strong> {{ event.entertainment }}</p>
-                <p><strong>Duration:</strong> {{ event.duration }} hours</p>
-                <p><strong>Total Cost (incl. GST):</strong> ₹{{ event.total }}</p>
+                <p><strong>Username:</strong> {{ event[1] }}</p>
+                <p><strong>Event Type:</strong> {{ event[2] }}</p>
+                <p><strong>Guests:</strong> {{ event[3] }}</p>
+                <p><strong>Venue Area:</strong> {{ event[4] }} sq ft</p>
+                <p><strong>Food:</strong> {{ event[5] }}</p>
+                <p><strong>Decoration:</strong> {{ event[6] }}</p>
+                <p><strong>Entertainment:</strong> {{ event[7] }}</p>
+                <p><strong>Duration:</strong> {{ event[8] }} hours</p>
+                <p><strong>Event Date:</strong> {{ event[10] }}</p>
+                <p><strong>Total Cost:</strong> ₹{{ event[9] }}</p>
             </div>
             {% endfor %}
         {% else %}
